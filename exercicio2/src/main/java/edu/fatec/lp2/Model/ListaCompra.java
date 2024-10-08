@@ -17,7 +17,8 @@ public class ListaCompra implements Calculavel
 
     public void incluir(ItemCompra produto)
     {
-        this.itensCompra.add(produto);
+        if (itensCompra.size() < qtdeMax)
+            this.itensCompra.add(produto);
     }
 
     public double calcularPreco()
