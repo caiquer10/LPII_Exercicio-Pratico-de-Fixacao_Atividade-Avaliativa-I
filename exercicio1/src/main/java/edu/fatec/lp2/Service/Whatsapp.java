@@ -7,6 +7,12 @@ public class Whatsapp {
     private Contatinho[] contatos;
     private Mensagem[] mensagens;
 
+    public Whatsapp(Contatinho[] contatos, Mensagem[] mensagens)
+    {
+        this.contatos = contatos;
+        this.mensagens = mensagens;
+    }
+
     public void listarContatos()
     {
         for (Contatinho contato : contatos)
