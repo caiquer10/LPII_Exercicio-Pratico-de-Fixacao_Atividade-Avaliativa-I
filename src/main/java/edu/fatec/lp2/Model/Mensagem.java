@@ -1,4 +1,4 @@
-package edu.fatec.lp2;
+package edu.fatec.lp2.Model;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

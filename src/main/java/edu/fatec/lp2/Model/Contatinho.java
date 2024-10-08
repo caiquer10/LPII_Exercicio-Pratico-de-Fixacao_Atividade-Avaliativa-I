@@ -1,4 +1,4 @@
-package edu.fatec.lp2;
+package edu.fatec.lp2.Model;
 
 public class Contatinho {
     private String nome;

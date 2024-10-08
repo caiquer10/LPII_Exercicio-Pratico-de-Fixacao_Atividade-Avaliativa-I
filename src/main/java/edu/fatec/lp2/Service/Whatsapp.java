@@ -1,4 +1,7 @@
-package edu.fatec.lp2;
+package edu.fatec.lp2.Service;
+
+import edu.fatec.lp2.Model.Contatinho;
+import edu.fatec.lp2.Model.Mensagem;
 
 public class Whatsapp {
     private Contatinho[] contatos;
