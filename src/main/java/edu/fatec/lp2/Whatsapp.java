@@ -13,7 +13,7 @@ public class Whatsapp {
     public void listarMensagens()
     {
         for (Mensagem mensagem : mensagens)
-            System.out.println(mensagem.conteudo);
+            System.out.println(mensagem.getConteudo());
     }
     
 }
