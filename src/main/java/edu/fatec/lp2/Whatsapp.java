@@ -7,7 +7,7 @@ public class Whatsapp {
     public void listarContatos()
     {
         for (Contatinho contato : contatos)
-            System.out.println(contato.nome);
+            System.out.println(contato.getNome());
     }
 
     public void listarMensagens()
