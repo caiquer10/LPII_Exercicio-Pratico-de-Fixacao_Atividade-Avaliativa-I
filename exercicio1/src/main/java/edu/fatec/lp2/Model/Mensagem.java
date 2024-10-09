@@ -17,14 +17,11 @@ public abstract class Mensagem {
 
     private String getTime()
     {
-        // Get the current date and time
         LocalDateTime now = LocalDateTime.now();
 
-        // Define a formatter
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        DateTimeFormatter formata = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
-        // Format the current date and time to a string
-        return now.format(formatter);
+        return now.format(formata);
     }
 
     public String getConteudo()

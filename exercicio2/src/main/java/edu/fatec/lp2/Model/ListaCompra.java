@@ -8,16 +8,16 @@ import edu.fatec.lp2.Service.Calculavel;
 public class ListaCompra implements Calculavel
 {
     private List<ItemCompra> itensCompra = new ArrayList<>();
-    private int qtdeMax;
+    private int quantidadedeMax;
 
-    public ListaCompra(int qtdeMax)
+    public ListaCompra(int quantidadedeMax)
     {
-        this.qtdeMax = qtdeMax;
+        this.quantidadedeMax = quantidadedeMax;
     }
 
     public void incluir(ItemCompra produto)
     {
-        if (itensCompra.size() < qtdeMax)
+        if (itensCompra.size() < quantidadedeMax)
             this.itensCompra.add(produto);
     }
 

@@ -1,8 +1,8 @@
-# Exercício 1
-Com base no diagrama de classes abaixo, implemente um projeto orientado a objetos contendo as abstrações representadas e considerando as seguintes instruções:
+# Exercício 1 - Prático de Fixação - Atividade Avaliativa I - Professor Lucas Nadalete
 
-- **package**: edu.fatec.lp2.exercicio1 (organizar as classes e outros pacotes dentro deste)
-- **contatos** e **mensagens** são Arrays inicializados via construtor;
-- Todos os atributos são privados;
-- A classe abstrata Mensagem deve possuir um método abstrato **Mensagem sendMessage(String)**; e
-- **Mensagem sendMessage(String)** deve retornar a sua própria instância.
+## Exercício 1 - Com base no diagrama de classes abaixo, implemente um projeto orientado a objetos contendo as abstrações representadas e considerando as seguintes instruções:
+
+
+
+## Exercício 2 - Seu Astolfo recentemente adquiriu uma rede de supermercados e contratou a Você S.A., empresa especializada no desenvolvimento de soluções informatizadas, para implementar uma prova de conceito referente ao seu domínio de compras.
+
